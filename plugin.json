@@ -1,0 +1,36 @@
+{
+  "id": "search_images_via_google",
+  "uuid": "1ac26080-96ca-47ed-bd10-f62454bae2dc",
+  "userSettings": [
+    {
+      "name": "searchEngineID",
+      "label": "Search Engine ID",
+      "required": true
+    },
+    {
+      "name": "searchEngineAPIKey",
+      "label": "Search Engine API Key",
+      "type": "password",
+      "required": true
+    }
+  ],
+  "emoji": "🌅",
+  "title": "Image Search",
+  "openaiSpec": {
+    "name": "search_images_via_google",
+    "description": "Search for images from the internet in real-time using Google Search.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "keyword": {
+          "type": "string",
+          "description": "The search keyword"
+        }
+      },
+      "required": ["keyword"]
+    }
+  },
+  "system": true,
+  "implementationType": "javascript",
+  "outputType": "respond_to_ai"
+}

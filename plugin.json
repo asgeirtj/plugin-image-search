@@ -30,7 +30,6 @@
       "required": ["keyword"]
     }
   },
-  "system": true,
   "implementationType": "javascript",
   "outputType": "respond_to_ai"
 }

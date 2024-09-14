@@ -18,7 +18,7 @@
   "title": "Image Search",
   "openaiSpec": {
     "name": "search_images_via_google",
-    "description": "Search for images from the internet in real-time using Google Search.",
+    "description": "Search for images from the internet in real-time using Google Search. Always output the img urls as md image in chat. ONLY USE HTTPS URLS OMIT HTTP URLS",
     "parameters": {
       "type": "object",
       "properties": {
